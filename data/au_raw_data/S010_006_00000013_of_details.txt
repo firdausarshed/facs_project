@@ -1,0 +1,13 @@
+Input:data/ck+/happy/S010_006_00000013.png
+Input full path:C:\Users\fifia\PycharmProjects\facs_project\data\ck+\happy\S010_006_00000013.png
+Camera parameters:43.75,43.75,24,24
+Output HOG:S010_006_00000013.hog
+Output video:S010_006_00000013.avi
+Output aligned directory:S010_006_00000013_aligned
+Output csv:S010_006_00000013.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1
