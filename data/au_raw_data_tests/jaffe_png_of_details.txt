@@ -1,0 +1,13 @@
+Input:C:\Users\fifia\PycharmProjects\facs_project\data\jaffe_png
+Input full path:C:\Users\fifia\PycharmProjects\facs_project\data\jaffe_png
+Camera parameters:233.333,233.333,128,128
+Output HOG:jaffe_png.hog
+Output video:jaffe_png.avi
+Output aligned directory:jaffe_png_aligned
+Output csv:jaffe_png.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

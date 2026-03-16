@@ -1,0 +1,13 @@
+Input:C:\Users\fifia\PycharmProjects\facs_project\data\mydata\KA.HA1.29.tiff
+Input full path:C:\Users\fifia\PycharmProjects\facs_project\data\mydata\KA.HA1.29.tiff
+Camera parameters:233.333,233.333,128,128
+Output HOG:KA.HA1.29.hog
+Output video:KA.HA1.29.avi
+Output aligned directory:KA.HA1.29_aligned
+Output csv:KA.HA1.29.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1

@@ -1,0 +1,6 @@
+Input:C:\Users\fifia\PycharmProjects\facs_project\data\mydata\DSCN1433.png
+Input full path:C:\Users\fifia\PycharmProjects\facs_project\data\mydata\DSCN1433.png
+Camera parameters:186.589,186.589,119.5,89.5
+Output HOG:DSCN1433.hog
+Output video:DSCN1433.avi
+Output aligned directory:DSCN1433_aligned
