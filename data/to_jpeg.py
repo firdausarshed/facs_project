@@ -3,7 +3,7 @@
 from PIL import Image
 import os
 
-src = r"C:\Users\fifia\PycharmProjects\facs_project\data\jaffe_png"
+src = r"/data/datasets/jaffe_png"
 dst = r"C:\Users\fifia\PycharmProjects\facs_project\data\jaffe_jpg"
 os.makedirs(dst, exist_ok=True)
 
