@@ -69,6 +69,13 @@ joblib.dump(model, "mlp_emotion_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
 
 # save label encoder
-joblib.dump(le, "model, scaler, label encoder/label_encoder.pkl")
+joblib.dump(le, "label_encoder.pkl")
 
 print("Model, scaler, and label encoder saved.")
+
+
+#save data for plots
+joblib.dump(y_test, "y_test.pkl")
+joblib.dump(y_pred, "y_pred.pkl")
+joblib.dump(le, "label_encoder.pkl")
+joblib.dump(acc, "accuracy.pkl")
