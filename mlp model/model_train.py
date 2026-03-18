@@ -1,4 +1,5 @@
 import pandas as pd
+import joblib
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import sklearn.preprocessing as prep
@@ -58,3 +59,16 @@ print(classification_report(y_test, y_pred))
 
 print("\nConfusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
+
+#SAVING
+
+# save model
+joblib.dump(model, "mlp_emotion_model.pkl")
+
+# save scaler
+joblib.dump(scaler, "scaler.pkl")
+
+# save label encoder
+joblib.dump(le, "model, scaler, label encoder/label_encoder.pkl")
+
+print("Model, scaler, and label encoder saved.")
