@@ -79,3 +79,8 @@ joblib.dump(y_test, "y_test.pkl")
 joblib.dump(y_pred, "y_pred.pkl")
 joblib.dump(le, "label_encoder.pkl")
 joblib.dump(acc, "accuracy.pkl")
+joblib.dump(X_train, "X_train.pkl")
+joblib.dump(X_test, "X_test.pkl")
+joblib.dump(y_train, "y_train.pkl")
+joblib.dump(list(X.columns), "feature_names.pkl")
+
