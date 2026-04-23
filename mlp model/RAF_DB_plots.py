@@ -6,7 +6,7 @@ import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
 from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 
-csv_path = r"C:\Users\fifia\PycharmProjects\facs_project\rafdb_predictions.csv"
+csv_path = r"/data/rafdb/rafdb_predictions.csv"
 label_encoder_path = r"C:\Users\fifia\PycharmProjects\facs_project\mlp model\label_encoder.pkl"
 
 df = pd.read_csv(csv_path)
