@@ -34,10 +34,6 @@ feature_names = joblib.load("feature_names.pkl")
 
 classes = le.classes_
 
-# -------------------------
-# EXISTING PLOTS (unchanged)
-# -------------------------
-
 # confusion matrix heatmap
 cm = confusion_matrix(y_test, y_pred)
 
@@ -80,11 +76,7 @@ plt.title("Model Accuracy")
 plt.tight_layout()
 plt.show()
 
-# -------------------------
-# NEW PLOTS ADDED BELOW
-# -------------------------
-
-# 1. Learning Curve
+# learning Curve
 train_sizes, train_scores, val_scores = learning_curve(
     model, X_train, y_train,
     cv=5,
@@ -106,7 +98,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# 2. Loss Curve
+# loss Curve
 plt.figure(figsize=(8,5))
 plt.plot(model.loss_curve_, color=mid)
 plt.xlabel("Iterations")
@@ -116,7 +108,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# 3. Permutation Feature Importance (AUs)
+# permutation feature importance (AUs)
 result = permutation_importance(model, X_test, y_test, n_repeats=10, random_state=42)
 
 importances = result.importances_mean
